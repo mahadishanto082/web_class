@@ -1,0 +1,139 @@
+body{
+    background-image: url(quora.jpg);
+    background-size: cover;
+}
+#parent{
+    background-color: white;
+    height: 500px ;
+    width: 800px;
+    margin-left: 25%;
+}
+#header{
+    margin-top: 10%;
+    background-color: black;
+    height: 100px;
+
+}
+
+#box1{
+    
+    height: 340px;
+    width: 450px;
+    float: right;
+    background-color: white;
+    font-weight: bold;
+    border-left: 1px solid rgba(129, 117, 117, 0.772);
+
+
+}
+.txn{
+    margin-top: 5px;
+    height: 55px;
+    width: 380px;
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    border-radius: 5px;
+    
+    
+    
+}
+.txn:focus{
+    outline: none;
+    box-shadow: 0 0 2px blue;
+}
+#btn_login{
+    background-color: blue;
+    height: 35px;
+    width: 55px;
+    border-radius: 8px;
+    float: right;
+}
+#box2{
+    padding-left: 2%;
+    height: 347.6px;
+  
+
+}
+.Terms  { 
+    text-decoration: none;
+    color: blue;
+    font-weight: lighter;
+
+}
+.Terms:hover{
+    text-decoration: underline;
+}
+.Policy{
+    text-decoration: none;
+    color: blue;
+    font-weight: lighter;
+
+}
+.Policy:hover{
+    text-decoration: underline;
+}
+.btn_google{
+    border: 2px solid whitesmoke;
+    background-color: #FFFF;
+    margin-top: 10%;
+    height: 50px;
+    width: 280px;
+    border-radius: 5px ;
+}
+.btn_google a{
+    text-decoration: none;
+}
+
+.btn_google:hover{
+    background-color: antiquewhite;
+
+}
+.btn_fb{
+    border: 2px solid whitesmoke;
+    background-color: #FFFF;
+    height: 50px;
+    width: 280px;
+    border-radius: 5px ;
+    color: black;
+}
+.btn_fb a{
+    text-decoration: none;
+}
+.btn_fb:hover{
+    background-color: antiquewhite;
+}
+.btn_sign {
+    border: none;
+    outline: none;
+    width: 90%;
+  }
+  
+  .btn_sign:focus,
+  .btn_sign:hover {
+    border: 1px solid antiquewhite;
+    border-radius: 8px;
+  }
+  
+  #txn_sign {
+    background-color: white;
+    font-weight: bold;
+    color: #a38371;
+  }
+  .footer{
+    padding-top: 2%;
+    background-color:#f1f2f2;
+    height: 32px;
+    margin-bottom: 20%;
+  }
+.btn_about{
+    border: none;
+    outline: none;
+    width: 90%;
+}
+.btn_about:focus,
+  .btn_about:hover{
+    border: 1px solid antiquewhite;
+    
+
+  }
+
